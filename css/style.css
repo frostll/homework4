@@ -97,7 +97,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url("..images/header.jpg"); 
+  background-image: url("../images/header.jpg");  
 
   grid-column: 1 / -1;  /* -1 = wherever the end is*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
