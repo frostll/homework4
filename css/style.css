@@ -97,7 +97,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url("../images/header.jpg");  
+  background-image: url("../images/header.jpg"); 
 
   grid-column: 1 / -1;  /* -1 = wherever the end is*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -113,6 +113,7 @@ header p{
 .about, .method, .clients, .contact{
   /*Your Code Here*/
   grid-column: 2 / span 1;
+  align-self: center;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
@@ -175,6 +176,7 @@ background-color: rgba(255, 255, 255, .8);
 
   .about-image, .clients-image, .method, .contact{
     /*Your code here:*/
+    grid-column: 2 / span 2;
   }
 }
 
